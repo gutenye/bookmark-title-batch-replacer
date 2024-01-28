@@ -7,13 +7,13 @@ function arrayHandler(arr: chrome.bookmarks.BookmarkTreeNode[], pattern: string,
       if (item.children && item.children.length > 0) {
         data.push(...arrayHandler(item.children, pattern, flags, replacement));
       } else {
-        const { id, title, url } = item;
-        if (url && regTest(pattern, flags, url)) {
+        const { id, title } = item;
+        if (title && regTest(pattern, flags, title)) {
           data.push({
             key: id,
             name: title,
-            source: url,
-            result: regReplace(pattern, flags, url, replacement),
+            source: title,
+            result: regReplace(pattern, flags, title, replacement),
           });
         }
       }
@@ -37,6 +37,6 @@ export async function getTree(pattern: string, flags: string[] | string, replace
 export async function updateUrl(id: string, newUrl: string) {
   //! chrome 90+
   return await chrome.bookmarks.update(id, {
-    url: newUrl,
+    title: newUrl,
   });
 }

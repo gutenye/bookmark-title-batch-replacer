@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Bookmark URL Batch Replacer"
+    "message": "Bookmark Title Batch Replacer"
   },
   "extDes": {
-    "message": "Batch replace bookmark URL."
+    "message": "Batch replace bookmark Title."
   },
   "indexPatternLabel": {
     "message": "Regex pattern: "
@@ -42,10 +42,10 @@
     "message": "Name"
   },
   "indexSource": {
-    "message": "Source URL"
+    "message": "Source Title"
   },
   "indexResult": {
-    "message": "Result URL"
+    "message": "Result Title"
   },
   "indexErrorUpdateText": {
     "message": "Unable to update bookmark: "
