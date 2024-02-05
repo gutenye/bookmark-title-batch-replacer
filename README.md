@@ -15,7 +15,7 @@ bun run dev
 
 ## Credits
 
-> [bookmark-url-batch-replacer](https://github.com/LightAPIs/bookmark-url-batch-replacer)
+- [bookmark-url-batch-replacer](https://github.com/LightAPIs/bookmark-url-batch-replacer)
 - [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue)
 - [vuejs/core](https://github.com/vuejs/core)
 
