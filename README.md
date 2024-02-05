@@ -1,5 +1,7 @@
 # Bookmark Title Batch Replacer
 
+> Forked from [bookmark-url-batch-replacer](https://github.com/LightAPIs/bookmark-url-batch-replacer)
+
 [![Release](https://img.shields.io/github/v/release/LightAPIs/bookmark-url-batch-replacer.svg?color=orange)](https://github.com/LightAPIs/bookmark-url-batch-replacer/releases/latest) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dfnljilidcnlgaaacemdciplbblpjanl?maxAge=86400)](https://chrome.google.com/webstore/detail/bookmark-url-batch-replac/dfnljilidcnlgaaacemdciplbblpjanl) [![Mozilla Add-ons](https://img.shields.io/amo/v/bookmark-url-batch-replacer)](https://addons.mozilla.org/zh-CN/firefox/addon/bookmark-url-batch-replacer/) [![Microsoft Edge Addons](https://img.shields.io/badge/-edge_addons-blue.svg)](https://microsoftedge.microsoft.com/addons/detail/hfnpdblccccbhkdjogbonjmpnnjokcai) [![MIT](https://img.shields.io/github/license/LightAPIs/bookmark-url-batch-replacer.svg)](/LICENSE)
 
 > Batch replace bookmark Title.

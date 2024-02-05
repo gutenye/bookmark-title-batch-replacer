@@ -5,7 +5,7 @@
         <div class="input-bar">
           <b-input-bar-row>
             <template #label>{{ i18n('indexPatternLabel') }}</template>
-            <a-input v-model:value="pattern" :disabled="fetching" :placeholder="i18n('indexPatternPlaceholder')" />
+            <a-input v-model:value="pattern" :placeholder="i18n('indexPatternPlaceholder')" @pressEnter="onPreview" />
           </b-input-bar-row>
           <b-input-bar-row>
             <template #label>{{ i18n('indexFlagesLabel') }}</template>
@@ -13,7 +13,7 @@
           </b-input-bar-row>
           <b-input-bar-row>
             <template #label>{{ i18n('indexReplacementLabel') }}</template>
-            <a-input v-model:value="replacement" :disabled="fetching" :placeholder="i18n('indexReplacementPlaceholder')" />
+            <a-input v-model:value="replacement" :placeholder="i18n('indexReplacementPlaceholder')" @pressEnter="onPreview" />
           </b-input-bar-row>
           <a-row>
             <a-col :md="4" :lg="2">
@@ -34,7 +34,7 @@
             :columns="columns"
             :data-source="curData"
             :row-selection="{ selectedRowKeys: selectedRowKeys, onChange: onSelectChange }"
-            :pagination="{ showSizeChanger: true }"
+            :pagination="false"
           ></a-table>
         </a-spin>
       </a-layout-content>
